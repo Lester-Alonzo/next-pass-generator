@@ -24,6 +24,20 @@
     align-items: center;
     gap: 1rem;
 }
+.lista input[type="number"]{
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 9px;
+    width: 35%;
+}
+.lista input:focus{
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.459);
+}
+.lonjj{
+    margin: 1rem 0;
+}
 .si{
     display: block;
     width: 12px;
@@ -36,4 +50,24 @@
     color: white;
     padding: 1rem;
     border-radius: 9px;
+}
+
+@media only screen and (max-width:473px){
+.lista input[type="number"]{
+    width: 48%;
+} 
+.verde{
+    overflow: auto;
+}
+}
+@media only screen and (max-width:367px){
+    .lonjj{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .lista input[type="number"]{
+        width: 75%;
+    }
 }

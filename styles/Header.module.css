@@ -12,3 +12,8 @@
     top: 1rem;
     left: 15%;
 }
+@media only screen and (max-width:475px) {
+   .nave{
+       width: 79%;
+   } 
+}

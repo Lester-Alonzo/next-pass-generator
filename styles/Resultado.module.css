@@ -12,6 +12,11 @@
     background-color: white;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.459);
 }
+@media only screen and (max-width:367px) {
+   .tarjeta{
+       width: 75%;
+   } 
+}
 .lista{
     list-style: none;
 }

@@ -35,7 +35,7 @@ return (
         <li>Mayusculas <span className={style.si}></span></li>
         <li>Numeros <span className={style.si}></span></li>
         <li>Signos <span className={style.si}></span></li>
-        <li>Longitud  <input value={leng} onInput={inu} type="number" placeholder="Ingresa la longitud que desees" /></li>
+        <li className={style.lonjj}>Longitud  <input value={leng} onInput={inu} type="number" placeholder="Ingresa la longitud que desees" /></li>
     </ul>
     <button onClick={hacer}>Generar</button>
     </div>
