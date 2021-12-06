@@ -3,7 +3,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 import {Toaster, toast} from 'react-hot-toast';
 import style from '../styles/Generar.module.css'
 const Generar = ({}) =>{
-    const [leng, setLeng] = useState(9)
+    const [leng, setLeng] = useState(12)
     const [mostrar, setMostrar] = useState(false)
     const [pas, setPas] = useState("")
     //length es de 70
