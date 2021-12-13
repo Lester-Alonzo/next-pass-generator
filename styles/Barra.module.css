@@ -1,0 +1,27 @@
+.barra1{
+    background-color:#ed5a5a;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.320);
+    border-radius: 10px;
+    height:1.5rem;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+ }
+.barra2{
+    background-color:#F5F500;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.320);
+    border-radius: 10px;
+    height:1.5rem;
+    color:black;
+    text-align:center;
+    font-weight:bold;
+}
+.barra3{
+    background-color:#87de72;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.320);
+    border-radius: 10px;
+    height:1.5rem;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
